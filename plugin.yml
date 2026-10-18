@@ -1,0 +1,18 @@
+name: DuelsPlugin
+version: 1.0
+main: com.example.duels.DuelsPlugin
+api-version: "26.1"
+commands:
+  duels:
+    description: Teleport to the duel arena and open kits
+    usage: /duels
+  kit:
+    description: Open the kit selection menu
+    usage: /kit
+  tpback:
+    description: Teleport back to your original location
+    usage: /tpback
+  tp:
+    description: Teleport back alias
+    usage: /tp back
+    
